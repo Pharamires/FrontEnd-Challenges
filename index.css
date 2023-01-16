@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    font-family: Outfit;
+}
+
+.container {
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    margin: 10% 41%;
+    border-radius: 25px;
+    padding: 1% 0;
+}
+    
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 25px;
+}
+
+
+h2 {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 38px;
+    padding-bottom: 20px;
+}
+
+.qr {
+    position: relative;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.attribution {
+    padding: 8% 8% 3%;
+}
