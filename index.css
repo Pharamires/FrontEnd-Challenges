@@ -2,14 +2,18 @@ body {
     background-color: hsl(212, 45%, 89%);
     text-align: center;
     font-family: Outfit;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    position: relative;
     background-color: hsl(0, 0%, 100%);
-    margin: 10% 41%;
     border-radius: 25px;
-    padding: 1% 0;
+    padding: 15px;
+    max-width: 320px;
 }
     
 
@@ -36,5 +40,5 @@ h2 {
 }
 
 .attribution {
-    padding: 8% 8% 3%;
+    padding-top: 50px;
 }
